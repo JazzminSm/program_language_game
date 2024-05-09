@@ -1,0 +1,22 @@
+.top-header {
+    display: flex; 
+    justify-content: center;
+}
+
+.container {
+    border-style: dotted;
+    width: 500px;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square {
+    width:120px;
+    height: 120px;
+    margin: 50px;
+    border-style: dotted;
+    display: inline-block;
+}
