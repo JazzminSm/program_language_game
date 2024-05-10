@@ -5,30 +5,88 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>pseudocode help</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <link rel="stylesheet" href="css/style.css" title="no title" charset="utf-8">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     </head>
     <body class="">
-        <div class="section block top-header">
-            <h1 class="title is-skeleton title is-1 has-text-weight-bold mt-0">
-                Prototype               
+        <div class="block top-header">
+            <h1 class="title is-skeleton title is-1 has-text-weight-bold mt-3">
+                JavaScript/C#/Python MiniGame              
             </h1>
         </div>
         <main>
-            <div class="container">
+            <div class="container top-container">
+                <div class="square" id="square-resize"><img src="/images/2.png"></div>
                 <div class="square"></div>
                 <div class="square"></div>
                 <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
+                <div class="square"><img src="/images/1.png"></div>
             </div>
-            <div class="container">
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
-                <div class="square"></div>
+            <div class="move-line"><div class="line-block"></div></div>
+            <div class="container container-two">
+                <div class="squaretwo"><img src="/images/4.png"></div>
+                <div class="squaretwo"><img src="/images/4.png"></div>
+                <div class="squaretwo"><img src="/images/4.png"></div>
+                <div class="squaretwo"><img src="/images/4.png"></div>
+                <div class="squaretwo"><img src="/images/4.png"></div>
+            </div>
+            <div class="columns column-position-one">
+                <div class="box button is-text variables">Variables</div>
+                <div class="box button is-text data-type">Data Types</div>
+                <div class="box button is-text conditionals">Conditionals</div>
+                <div class="box button is-text typecasting">Typecasting</div>
+                <div class="box button is-text exceptions">Exceptions</div>
+                <div class="box button is-text functions">Functions</div>
+                <div class="box button is-text container-hold">Lists,Tuples,Sets</div>
+                <div class="box button is-text dictionaries">Dictionaries</div>
+                <div class="box button is-text list-comp">List Comp</div>
+            </div>
+            <div class="columns column-position-six">
+                <div class="box button is-text generators">Generators</div>
+                <div class="box button is-text expressions">Expressions</div>
+                <div class="box button is-text paradigms">Paradigms</div>
+                <div class="box button is-text regex">regex</div>
+                <div class="box button is-text decorators">Decorators</div>
+                <div class="box button is-text variables">Variables</div>
+                <div class="box button is-text iterators">Iterators</div>
+                <div class="box button is-text lambdas">Lambdas</div>
+                <div class="box button is-text classes">Classes</div>
+                <div class="box button is-text random"><i class="fal fa-solid fa-dice"></i></div>
+            </div>
+            <div class="columns column-position-two">
+                <div class="box column is-four-fifths">
+                    <div class="icon-text">
+                        <span class="icon has-text-info">
+                        <i class="fas fa-info-circle"></i>
+                        </span>
+                        <div class="variables-group">
+                            <span class="var-gr-1 var-1 hidden" id="var-1">Create a variable to store the name of a new <u><b>customer</b></u> named "Mia"<div class="language box column">&nbsp&nbspLanguage: Python<br>&nbsp&nbspData Analyst &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-2 hidden" id="var-2">Declare a variable to store the player's <u><b>health points</b></u><div class="language box column">&nbsp&nbspLanguage: C#<br>&nbsp&nbspGame Developer &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-3 hidden" id="var-3">Declare a variable to store a reference to an HTML <u><b>element</b></u><div class="language box column">&nbsp&nbspLanguage: JavaScript<br>&nbsp&nbspWeb Developer &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-4 hidden" id="var-4">Create a variable to store the age of a new <u><b>client</b></u> age 25<div class="language box column">&nbsp&nbspLanguage: Python<br>&nbsp&nbspData Analyst &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-5 hidden" id="var-5">Declare a variable to store the player's  <u><b>score</b></u> at 100<div class="language box column">&nbsp&nbspLanguage: C#<br>&nbsp&nbspGame Developer &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-6 hidden" id="var-6">Declare a variable to store  <u><b>user input</b></u><div class="language box column">&nbsp&nbspLanguage: JavaScript<br>&nbsp&nbspWeb Developer &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: use prompt()&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-7 hidden" id="var-7">Assign multiple variables x y and z in a single statement with 10 20 and 30<div class="language box column">&nbsp&nbspLanguage: Python<br>&nbsp&nbspData Analyst &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-8 hidden" id="var-8">Declare a variable to store the count of enemies with 10<div class="language box column">&nbsp&nbspLanguage: C#<br>&nbsp&nbspGame Developer &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: ???&nbsp&nbsp</div></span>
+                            <span class="var-gr-1 var-9 hidden" id="var-9">Declare variables for mathematical operations with x for 10 and y for 5<div class="language box column">&nbsp&nbspLanguage: JavaScript<br>&nbsp&nbspWeb Developer &nbsp&nbsp</div><div class="hint box column">&nbsp&nbspHint: use prompt()&nbsp&nbsp</div></span>
+                            
+                            <span class="hidden">Information2</span> 
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="columns column-position-three">
+                <div class="box column is-four-fifths" id="display-group"></div>
+            </div>
+            <div class="columns column-position-four">
+                <div class=" column is-four-fifths input-section"><input class="input is-primary is-rounded input-data"" type="text" placeholder="Type Code" /></div>
+            </div>
+            <div class="columns column-position-five">
+                <div class="box column button is-small is-fullwidth add-button">Add</div>
+                <div class="box column button is-small is-fullwidth reset-button">Reset</div>
+                <div class="box column button is-small is-fullwidth enter-button">Enter</div>
             </div>
         </main>
     </body>
