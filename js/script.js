@@ -61,7 +61,7 @@ function checkIfEnterButton(event) {
                 // Check if the next square is the first square
                 if (nextSquare === firstSquare) {
                     // Switch the first image to images/1
-                    firstImage.src = '/images/1.png';
+                    firstImage.src = 'images/tom.png';
 
                     // Show an alert with a button to refresh the page after a delay
                     setTimeout(function() {
@@ -114,12 +114,12 @@ function checkIfEnterButton(event) {
                     // Find the first square without the image source '/images/3.png' and update it
                     const squareToUpdate = squares.find(square => {
                         const image = square.querySelector('img');
-                        return !image.src.endsWith('/images/3.png');
+                        return !image.src.endsWith('images/lamp.png');
                     });
 
                     const existingSquare = squares.find(square => {
                         const image = square.querySelector('img');
-                        return image.src.endsWith('/images/3.png');
+                        return image.src.endsWith('images/lamp.png');
                     });
 
                     if (squareToUpdate) {
@@ -127,12 +127,12 @@ function checkIfEnterButton(event) {
                                 slideImageToLeft();
                                 setTimeout(() => {
                                 const imageToUpdate = squareToUpdate.querySelector('img');
-                                imageToUpdate.src = '/images/3.png';
+                                imageToUpdate.src = 'images/lamp.png';
                             }, 500);
                         } else {
                             setTimeout(() => {
                                 const imageToUpdate = squareToUpdate.querySelector('img');
-                                imageToUpdate.src = '/images/3.png';
+                                imageToUpdate.src = 'images/lamp.png';
                             }, 500);
                         }
                     }
